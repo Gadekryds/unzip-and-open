@@ -9,3 +9,6 @@ double-click this:
 add path to your folder:
 ![image](https://github.com/Gadekryds/unzip-and-open/assets/9715459/8704e5d6-bed7-4705-bf5a-9267118ed6ab)
 
+trigger the command based on the script name (filenamed: uao.bat):
+` uao {{file-to-open}} `
+
