@@ -19,13 +19,13 @@ REM Static IntelliJ IDEA executable path
 set "idea_executable_path={{fill-in-full-path.exe}}"
 
 REM Unpack the zip folder
-if exist "%extract_folder_path%" (
-    rmdir /s /q "%extract_folder_path%"
+if not exist "%extract_folder_path%" (
+	mkdir "%extract_folder_path%"
 )
-mkdir "%extract_folder_path%"
-powershell -command "Expand-Archive -Path '%zip_file_path%' -DestinationPath '%extract_folder_path%\%archive_name%'"
+
+powershell -command "Expand-Archive -Path '%zip_file_path%' -DestinationPath '%extract_folder_path%'"
 
 REM Open the unpacked folder with IntelliJ IDEA
-start "" "%idea_executable_path%" "%extract_folder_path%"
+start "" "%idea_executable_path%" "%extract_folder_path%\%archive_name%"
 
 endlocal
