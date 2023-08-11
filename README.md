@@ -27,3 +27,8 @@ Replace the bracketed values {{}}
 
 One location could be: 
 ` C:\Users\%UserProfile%\AppData\Local\Programs\IntelliJ IDEA Community Edition\bin\idea64.exe ` 
+
+
+# Executing the script
+
+` PS  C:\Home> uao demo-project.zip`
