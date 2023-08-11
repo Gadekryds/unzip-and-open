@@ -26,4 +26,4 @@ Replace the bracketed values {{}}
 ` {{fill-in-full-path.exe}} ` should be replaced with the location of your idea64.exe 
 
 One location could be: 
-` C:\Users\%UserProfile%\AppData\Local\Programs\IntelliJ IDEA Community Edition\bin ` 
+` C:\Users\%UserProfile%\AppData\Local\Programs\IntelliJ IDEA Community Edition\bin\idea64.exe ` 
